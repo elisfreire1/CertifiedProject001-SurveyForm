@@ -10,9 +10,10 @@
     <h1 id="title">i3k Survey Form</h1>
     <p id="description">Thank you for taking time to help us to improve our plataform</p>
     <form id="survey-form">
-        <label for="name">Name: <input type="text" id="name" required placeholder="Enter Your Name"/></label>
-        <label for="email">Email: <input type="email" id="email" required placeholder="Enter Your Email"/></label> 
-        <label for="number">Age (optional): <input type="number" id="number" min="13" max="120" placeholder="Age"/></label>
+        <label for="name" id="name-label">Name: <input type="text" id="name" required placeholder="Enter Your Name"/></label>
+        <label for="email" id="email-label">Email: <input type="email" id="email" required placeholder="Enter Your Email"/></label> 
+        <label for="number" id="number-label">Age (optional): <input type="number" id="number" min="13" max="120" placeholder="Age"/></label>
+        
         <label for="dropdown"> Select the best option that describes your current role:
             <select id="dropdown">
               <option>Select Current Role</option>
@@ -26,15 +27,15 @@
         </label>
 
         <label for="definitely">
-            <input type="radio" name="recommend" id="definitely"> Definitely
+            <input type="radio" name="recommend" id="definitely" value="definitely"> Definitely
         </label>
         <label for="maybe">
-            <input type="radio" name="recommend" id="maybe"> Maybe
+            <input type="radio" name="recommend" id="maybe" value="maybe"> Maybe
         </label>
         <label for="not-sure">
-            <input type="radio" name="recommend" id="not-sure"> Not sure
+            <input type="radio" name="recommend" id="not-sure" value="not-sure"> Not sure
         </label>
-        <label for="never"><input type="radio" name="recommend" id="never"> Never</label>
+        <label for="never"><input type="radio" name="recommend" id="never" value="never"> Never</label>
 
         <fieldset>
             <legend>What is your favorite feature os i3k?</legend>
