@@ -27,7 +27,9 @@ form {
     max-width: 600px;
     min-width: 300px;
     width: 60vw;
-    padding-bottom: 2em;
+    padding: 3em;
+    background-color: rgba(27, 27, 50, 0.9);
+    border-radius: 5px;
 }
 
 fieldset {
