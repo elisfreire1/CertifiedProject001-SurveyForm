@@ -14,12 +14,15 @@ body{
 
 header{
     font-size: 18px;
-    background-image: url(resources/images/banner-finance-concept2.jpg);
+    background-image: url(resources/images/banner-finance-concept4.jpg);
     padding: 55px;
     /*margin-bottom: 15px;*/
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: left;
     margin: 0 auto 30px auto;
+    height: 300px;
 }
 label {
     display: block;
