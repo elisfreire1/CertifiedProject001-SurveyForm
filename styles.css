@@ -12,6 +12,15 @@ body{
     font-size: 16px;
 }
 
+header{
+    font-size: 18px;
+    background-image: url(resources/images/banner-finance-concept2.jpg);
+    padding: 55px;
+    /*margin-bottom: 15px;*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0 auto 30px auto;
+}
 label {
     display: block;
     margin: 0.5rem 0;
